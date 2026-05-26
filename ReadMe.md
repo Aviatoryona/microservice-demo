@@ -98,3 +98,5 @@ Effectively, native image compilation is done with the JDK used to execute Gradl
 You can read more
 about [toolchain support in the Native Build Tools here](https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html#configuration-toolchains).
 
+# Integrate With Jenkins
+- Call jenkins for test purposes to build the project
