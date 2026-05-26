@@ -20,4 +20,8 @@ public class UserService {
     public List<User> getAll() {
         return repository.findAll();
     }
+
+    public User getUserById(Long id) {
+        return repository.findById(id).orElse(null);
+    }
 }
