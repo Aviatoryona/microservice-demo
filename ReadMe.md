@@ -100,3 +100,5 @@ about [toolchain support in the Native Build Tools here](https://graalvm.github.
 
 # Integrate With Jenkins
 - Call jenkins for test purposes to build the project
+- Always add a trailing / after webhook e.g
+  > https://3c09-217-199-148-246.ngrok-free.app/github-webhook/
